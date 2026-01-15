@@ -1,5 +1,5 @@
 library(readr)
-AirbnbSydney <- read_csv("C:/Users/rprav/Downloads/AirbnbSydney.csv")
+AirbnbSydney <- read_csv("AirbnbSydney.csv")
 View(AirbnbSydney)
 install.packages("dplyr")
 library(dplyr)
@@ -196,5 +196,6 @@ summary_by_room_type <- airbnb_data %>%
 
 # Print the resulting summary table
 print(summary_by_room_type)
+
 
 
