@@ -5,16 +5,16 @@ This project performs an exploratory data analysis (EDA) of ~11,000 Airbnb listi
 
 ## Key Technical Features
 * **Language:** R
-* [cite_start]**Libraries:** `tidyverse`, `dplyr`, `readr` 
+* **Libraries:** `tidyverse`, `dplyr`, `readr` 
 * **Methodologies:**
-    * [cite_start]**Data Engineering:** Developed a `price.per.guest` metric and utilized `dplyr` to segment properties into quantile-based "Review Brackets".
-    * [cite_start]**Distribution Modeling:** Fitted **Gamma(α, β)** distributions to price-per-guest observations using Maximum Likelihood Estimation (MLE).
-    * [cite_start]**Geospatial Analysis:** Conducted regression and visualization of the relationship between longitude and pricing premiums across the Sydney CBD.
-    * [cite_start]**Comparative Analysis:** Evaluated mean and median price variances across room types (Entire Home vs. Private Room) and review frequency brackets.
+    * **Data Engineering:** Developed a `price.per.guest` metric and utilized `dplyr` to segment properties into quantile-based "Review Brackets".
+    * **Distribution Modeling:** Fitted **Gamma(α, β)** distributions to price-per-guest observations using Maximum Likelihood Estimation (MLE).
+    * **Geospatial Analysis:** Conducted regression and visualization of the relationship between longitude and pricing premiums across the Sydney CBD.
+    * **Comparative Analysis:** Evaluated mean and median price variances across room types (Entire Home vs. Private Room) and review frequency brackets.
 
 ## Key Commercial Insights
-* [cite_start]**Geographic Trends:** Identified a positive correlation between higher longitudes and pricing premiums, reflecting market-value increases from Western to Eastern Sydney.
-* [cite_start]**Model Suitability:** Confirmed that while the Gamma distribution effectively represents right-skewed pricing histograms, specific mid-tier price clusters show higher empirical density than the theoretical model.
+* **Geographic Trends:** Identified a positive correlation between higher longitudes and pricing premiums, reflecting market-value increases from Western to Eastern Sydney.
+* **Model Suitability:** Confirmed that while the Gamma distribution effectively represents right-skewed pricing histograms, specific mid-tier price clusters show higher empirical density than the theoretical model.
 
 ## How to Use
 1. Ensure `AirbnbSydney.csv` is in your working directory.
